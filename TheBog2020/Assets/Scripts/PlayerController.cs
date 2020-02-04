@@ -130,5 +130,10 @@ public class PlayerController : MonoBehaviour
         _camRelativeVector = forward * inputVector.z + right * inputVector.x;
     }
 
+    private void Move()
+    {
+        
+    }
+
     #endregion
 }
